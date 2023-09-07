@@ -1,0 +1,53 @@
+/*[dark-theme="dark"] {
+  background-color: black;
+  color: red;
+}
+
+a[title] {
+}
+*/
+/*[data-filter="fox"] {
+  background-color: brown;
+  color: black;
+}
+
+[data-filter="bat"] {
+  background-color: black;
+  color: white;
+}
+*/
+
+[data-theme="light"] {
+  --header-bg-col: bisque;
+  --header-text-col: rgb(108, 73, 73);
+  --body-bg-col: rgb(237, 237, 203);
+}
+
+[data-theme="dark"] {
+  --header-bg-col: rgb(20, 19, 19);
+  --header-text-col: bisque;
+  --body-bg-col: rgb(35, 30, 30);
+}
+
+[data-theme="hawaii"] {
+  --header-bg-col: rgb(228, 33, 153);
+  --header-text-col: green;
+  --body-bg-col: yellow;
+}
+
+body {
+  background-color: var(--body-bg-col);
+  color: var(--header-text-col);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: var(--header-bg-col);
+  padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+  padding: 10px;
+}
